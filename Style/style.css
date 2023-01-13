@@ -1,0 +1,112 @@
+/* ====================
+    All font style 
+======================= */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Work+Sans:ital,wght@0,200;0,400;0,800;0,900;1,900&display=swap'); 
+
+/* =====================
+    Common style
+======================== */
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+img{
+    width: 100% !important;
+}
+
+.margin{
+    margin: 0px 300px;
+}
+
+/*========================
+    Header style start
+==========================*/
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0px;
+    background-color: #562EFF ;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header .logo{
+    width: 20%;
+}
+.header .logo img{
+    max-width: 70px;
+}
+.header nav{
+    width: 80%;
+    text-align: left;
+}
+.header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.header nav ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+.header nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*========================
+    Header style end
+==========================*/
+
+
+
+
+/*=============================
+    main section style start
+================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================
+    styel for medeium devices
+===================================== */
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .margin{
+        margin: 0px 100px;
+    }
+    .header .logo {
+        width: 20%;
+    }
+    .header nav{
+        width: 80%;
+        align-items: center;
+    }
+}
